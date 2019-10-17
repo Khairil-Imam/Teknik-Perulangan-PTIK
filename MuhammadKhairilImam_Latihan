@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a,b,c,n;
+    cout<<"Masukkan jumlah baris: ";
+    cin>>n;
+    for (a=1; a<=n; a++)(
+        for (b=a; b<=n; b++)
+        {
+            cout<<" ";
+        }
+        for (c=1; c<=a; c++)
+        {
+            cout<<"*";
+        }
+        for (c=2; c<=a; c++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
